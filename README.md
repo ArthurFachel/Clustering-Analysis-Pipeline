@@ -289,7 +289,7 @@ graph TD
     H --> I[Exportação CSV/TXT]
 ```
 
-## 🧪 Testes
+## Testes
 
 Para testar a pipeline:
 
@@ -301,7 +301,7 @@ python -c "from utils.run import kmeans_model; print('✓ Pipeline importada com
 python examples/test_clustering.py
 ```
 
-## 📊 Datasets Suportados
+## Datasets Suportados
 
 ### Formato JSON
 ```json
@@ -319,7 +319,7 @@ python examples/test_clustering.py
 section | question | text | cluster | score | answer_relevancy | ...
 ```
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Erro: "ModuleNotFoundError: No module named 'utils'"
 **Solução**: Execute a partir do diretório raiz do projeto
@@ -348,7 +348,7 @@ model = SentenceTransformer("all-MiniLM-L6-v2")  # Fast
 model = SentenceTransformer("all-mpnet-base-v2")  # Mais lento mas melhor
 ```
 
-## 📚 Referências e Documentação
+##  Referências e Documentação
 
 - [Sentence Transformers](https://www.sbert.net/)
 - [Scikit-learn Clustering](https://scikit-learn.org/stable/modules/clustering.html)
@@ -375,7 +375,7 @@ results/
     └── plots/
 ```
 
-## 🤝 Contribuindo
+##  Contribuindo
 
 Contribuições são bem-vindas! Por favor:
 
@@ -387,12 +387,12 @@ Contribuições são bem-vindas! Por favor:
 
 ## 📝 Changelog
 
-### v1.0.0 (28/12/2024)
-- ✨ Release inicial
-- 🎯 Implementação de K-Means, Hierarchical Clustering, HDBSCAN
-- 📊 Sistema de métricas multidimensionais
-- 🔌 Integração AWS para nomeação de clusters
-- 📈 Pipelines de avaliação e agregação
+### v1.0.0 (28/12/2025)
+-  Release inicial
+-  Implementação de K-Means, Hierarchical Clustering, HDBSCAN
+-  Sistema de métricas multidimensionais
+-  Integração AWS para nomeação de clusters
+-  Pipelines de avaliação e agregação
 
 ## 📄 Licença
 
