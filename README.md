@@ -67,9 +67,9 @@ Edite o arquivo `.env` e defina:
 ```env
 JSON_PATH="/caminho/para/seus/dados.json"
 FOLDER_PATH="/caminho/para/pasta/modelos"
-AWS_REGION="us-east-1"
-AWS_KEY_ID="sua_chave_aws"
-AWS_SECRET_KEY="sua_senha_aws"
+AWS_ENDPOINT_URL="seu_path_aqui"
+AWS_MODEL="seu_modelo_aqui"
+
 ```
 
 ## 📁 Estrutura do Projeto
